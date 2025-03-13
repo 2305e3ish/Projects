@@ -1,17 +1,19 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./../styles/Navbar.css";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2>ASL Learn & Translate</h2>
-      <ul>
-        <li><Link to="/">Learn</Link></li>
-        <li><Link to="/translate">Translate</Link></li>
-        <li><Link to="/practice">Practice</Link></li>
-        <li><Link to="/play">Play</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
+      <div className="logo">
+        <h2>Smart ASL</h2>
+      </div>
+      <ul className="nav-links">
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/learn">Learn</NavLink></li>
+        <li><NavLink to="/translate">Translate</NavLink></li>
+        <li><NavLink to="/practice">Practice</NavLink></li>
+        <li><NavLink to="/play">Play</NavLink></li>
       </ul>
     </nav>
   );

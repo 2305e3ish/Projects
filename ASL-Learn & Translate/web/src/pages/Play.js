@@ -1,11 +1,14 @@
-import React from "react";
-import "../styles/Pages.css";
+import React from 'react';
+import '../styles/Pages.css';
 
 const Play = () => {
   return (
-    <div className="page-container">
+    <div className="page play-page">
       <h1>Play ASL Games</h1>
-      <p>Enjoy fun and interactive games to improve your ASL.</p>
+      <div className="game-box">
+        Play Game
+      </div>
+      <p>Enjoy interactive ASL games!</p>
     </div>
   );
 };
