@@ -1,0 +1,32 @@
+# Ignore environment variable files
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore machine learning model files
+*.h5
+*.pkl
+*.joblib
+
+# Ignore dataset files
+*.csv
+*.tsv
+*.json
+*.zip
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+.DS_Store
